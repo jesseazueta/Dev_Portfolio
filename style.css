@@ -1,0 +1,195 @@
+body {
+  background-color: black;
+}
+#jesse {
+  float:right;
+
+  margin-top:-2em;
+  left:56em;
+  opacity: 0.35
+  ;
+}
+div#topbar {
+  font-family: Helvetica;
+  height:7em;
+  width:100%;
+  color:white;
+  background-image: url(images/neoncubes.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: #00bcd4;*/
+  outline: 1px solid black;
+  /*position: fixed;*/
+  /*top:0;*/
+
+}
+
+.site_name h2 {
+  color: #ffb642
+}
+ .clearfix {
+   clear:both;
+ }
+
+/*#topbar{
+  background-color: blue;
+  height: 8em;
+  width: 100%;
+}*/
+.site_name {
+  float:left;
+  list-style: none;
+  margin: .5em .2em;
+
+}
+.site_name li {
+  font-size: 1.5em;
+  margin: -1em 0 -1.5em 0;
+
+}
+
+.navbar {
+  float:right;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+
+.navbar li {
+  display:inline;
+  margin: 1em 3em .1em .1em;
+}
+
+#sidebar{
+  background-color: black;
+  width: 8.25em;
+  height:100%;
+  float: left;
+}
+button {
+  width:12em;
+  height:12em;
+  font-weight: bold;
+  color: #89898b;
+  background-color: #e8e8ed;
+}
+
+.about_me{
+  float: left;
+  text-align: center;
+  height: 36em;
+  color: white;
+  font-family: 'Droid Serif', serif;
+}
+.me {
+  padding-top: -2em;
+  margin-top:0.2em;
+  margin-bottom: -0.3em;
+  margin-right: 16em;
+  margin-left:2em;
+  font-size: 3em;
+}
+
+.p1 {
+  float:left;
+  margin-left:2em;
+  width: 17em;
+  font-size: 1.2em;
+  text-align:justify;
+}
+.p2 {
+  float:left;
+  margin-left:1.5em;
+  margin-top: -2.4em;
+  width: 17em;
+  font-size: 1.2em;
+  text-align:justify;
+}
+
+.works {
+  background-color: white;
+  margin-top: -5.5em;
+  text-align: center;
+  color: black;
+  font-family: 'Droid Serif', serif;
+}
+
+.examples {
+    padding-top: 1em;
+    font-size: 3em;
+}
+.skills {
+  text-align: center;
+}
+  .skills li{
+  text-decoration: none;
+  /*text-align: center;*/
+  font-family: 'Droid Serif', serif;
+  color:#4765ff;
+  display: inline;
+  margin:0 5em;
+}
+h3 {
+  display: inline;
+}
+.skills a{
+  color: #adc4ff;
+}
+.skills a:hover, a:focus {
+  text-decoration: none;
+  color: #fff;
+	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+
+}
+
+.works img {
+  box-shadow: 1px 2px 1px white, 0 0 10px black, 0 0 10px white;
+  margin:0.5em;
+  border-radius: 3%;
+}
+.info {
+  background-color: #3f75ff;
+  text-align: left;
+  font-family: 'Droid Serif', serif;
+}
+.info {
+  color: white;
+  height: 4em;
+}
+.contact {
+  list-style:none;
+  padding-top: 1.3em;
+}
+
+.contact li {
+  font-size: 2em;
+  margin: 0 1em;
+  display: inline;
+}
+
+---------------------------------------------
+@media only screen and (max-device-width: 768px) {
+
+/*CSS CHANGES GO HERE*/
+/*#sidebar{
+  background-color: black;
+  width: 4em;
+  height:100%;
+  float: left;
+}
+
+button {
+  width:4em;
+  height:4em;
+  font-weight: bold;
+  color: #89898b;
+  background-color: #e8e8ed;
+}*/
+
+
+}
